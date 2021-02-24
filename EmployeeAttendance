@@ -1,2 +1,14 @@
 echo "welcome to Employee Wage Computation"
 echo "emp wage"
+#!/bin/bash
+count=1
+echo
+echo "$MAXCOUNT random numbers:"
+echo "-----------------"
+while [ "$count" -le $MAXCOUNT
+do
+  number=$RANDOM
+  echo $number
+  let "count += 1"  # Increment count.
+done
+echo "employee is present"
